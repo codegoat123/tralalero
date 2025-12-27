@@ -1,0 +1,20 @@
+{
+  "name": "doge-proxy",
+  "version": "1.0.0",
+  "description": "A powerful web proxy service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["proxy", "unblocker", "web-proxy"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "path": "^0.12.7",
+    "http": "^0.0.1-security",
+    "jsdom": "^22.1.0"
+  }
+}
